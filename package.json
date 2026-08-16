@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avinshthakare/paraBankApplication.git"
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/avinshthakare/paraBankApplication#readme",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.1"
+    "@types/node": "^26.1.1",
+    "playwright-mcp": "^0.0.19"
   }
 }
